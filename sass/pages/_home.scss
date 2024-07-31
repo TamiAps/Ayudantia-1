@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    max-width: 800px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 24px;
+    margin: 48px auto 48px auto;
+
+    .header {
+        display: flex;
+        gap:24px;
+        margin:auto;
+    }
+    
+    .title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
